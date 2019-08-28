@@ -1,0 +1,75 @@
+*:focus {
+    outline-style: none;
+}
+body {
+    background: url(/img/theater.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* Top area */
+.navbar-default {
+    background:rgba(8, 8, 6, 0.6);
+}
+.jumbotron {
+    background:rgba(8, 8, 6, 0.6);
+    margin-top: 50px;
+    font-family: 'bitter', serif;
+}
+.form-control:focus {
+    color: #00bc8c;
+    background-color: rgba(2, 2, 2, 0.2);
+    border-color: inherit;
+}
+/* Container for movie posters */
+.col-md-3 {
+    padding: 15px;
+}
+#movies img, #movie img {
+    width: 100%;
+    -webkit-box-shadow: 0px -5px 18px -8px rgba(173,69,173,1);
+    -moz-box-shadow: 0px -5px 18px -8px rgba(173,69,173,1);
+    box-shadow: 0px -5px 18px -8px rgb(248, 243, 248);
+}
+/* Popul;ar movie area */
+#hotMovies img {
+    width: 100%;
+    padding: 25px;
+    -webkit-box-shadow: 0px -5px 18px -8px rgba(173,69,173,1);
+    -moz-box-shadow: 0px -5px 18px -8px rgba(173,69,173,1);
+    box-shadow: 0px -5px 18px -8px rgb(248, 243, 248);
+}
+h2 {
+    padding: 15px;
+    font-family: 'bitter', serif;
+}
+h1, h3 {
+    color: #00bc8c;
+    font-family: 'bitter', serif;
+
+}
+.row {
+    background: rgba(2, 2, 2, 0.8);
+    color: white;
+}
+.grn-text {
+    color: #00bc8c;
+    font-size: 25px;
+    margin-left: 15px;
+}
+.list-group {
+    margin-top: 15px;
+}
+.plot-spacing {
+    padding: 30px;
+    line-height: 1.5;
+}
+@media (max-width: 760px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies .col-md-3 img {
+        height: 240px;
+    }
+}
